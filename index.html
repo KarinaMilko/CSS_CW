@@ -5,52 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header class="main-header">
-      <nav>
-        <ul>
-          <li class="nav-list-item">
-            <a class="nav-link" href="">Lorem.</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="">Voluptatum?</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#music">Music</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="">Libero.</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="">Cupiditate?</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="first-section">
-        <div class="center-wrapper">
-          <h1>Lorem.</h1>
-          <section>
-            <h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus.
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id fugit
-              magnam quasi, fugiat esse voluptatem aspernatur maiores rem
-              incidunt quidem sint molestiae ad ea, aliquam officiis
-              reprehenderit eum quis, facilis vero eos in quod alias! Fugit in
-              error laboriosam ex.
-            </p>
-          </section>
-        </div>
+    <article class="user-card">
+      <div class="blue-bg"></div>
+      <div class="user-photo-wrapper">
+        <img
+          class="user-photo"
+          src="./assets/Images/cat.jpeg"
+          alt="CodingLab photo"
+        />
       </div>
-
-      <section>
-        <h2 id="music">Music</h2>
-      </section>
-    </main>
+      <div class="content-container">
+        <h2>CodingLab</h2>
+        <p>YouTube & Bloger</p>
+        <div class="links-container">
+          <a class="fb-link social-link" href="#"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a class="tw-link social-link" href="#"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a class="inst-link social-link" href="#"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a class="youtube-link social-link" href="#"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+        <div class="btn-container">
+          <button class="subscribe-btn">Subscribe</button>
+          <button class="Message-btn">Message</button>
+        </div>
+        <ul class="social-count-list">
+          <li class="social-counts">
+            <i class="fa-regular fa-heart"></i> 60.4k
+          </li>
+          <li class="social-counts">
+            <i class="fa-regular fa-comment"></i> 20k
+          </li>
+          <li class="social-counts"><i class="fa-solid fa-share"></i> 12.4k</li>
+        </ul>
+      </div>
+    </article>
   </body>
 </html>
